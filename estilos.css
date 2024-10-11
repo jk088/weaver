@@ -1,0 +1,107 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   color: black;
+   text-decoration: none;
+   text-align: center;
+   
+   
+   }
+   .titulo{
+       padding: 40px;
+   }
+   nav ul{
+       width: 80%;
+       margin: auto;
+       border-radius: 10px;
+       list-style-type: none;
+       background-color: rgb(56, 96, 175);
+   }
+   
+   nav li{
+       display: inline-flex;
+   }
+   
+   nav a{
+       padding: 10px;
+       width: 150px;
+   
+   }
+   
+   nav ul a:hover{
+   background-color: rgb(108, 113, 255);
+   }
+   
+   .contenido{
+       display: flex;
+       width: 80%;
+       margin: auto;
+       margin-top: 50px;
+   }
+   
+   .contenido .articulo{
+       width: 70%;
+       margin: auto;
+   }
+   
+   .contenido .articulo div{
+       width: 80%;
+       padding: 15px;
+       background-color: rgb(255, 198, 53);
+       border-radius: 15px;
+       margin-bottom: 15px;
+   
+   }
+   
+   .contenido .articulo img{
+       width: 80%;
+       border-radius: 15px;
+   }
+   
+   .contenido .secundaria{
+       width: 30%;
+   }
+   .contenido .secundaria p{
+       background-color: rgb(225, 58, 32);
+       border-radius: 15px;
+       padding: 20px;
+       height: 1000px;
+   
+   }
+   .piedepagina{
+       background-color: rgb(165, 121, 197);
+       margin: 100px;
+       border-radius: 15px;
+   }
+   .piedepagina p{
+       padding: 50px;
+   }
+   .tituloh1{
+      font-size: 50px;
+      color: rgb(48, 48, 48);
+      padding:10px;
+   }
+   .secundaria p{
+      color: rgb(255, 255, 255);
+      text-align: justify;
+   }
+   .piedepagina p{
+      font-size: 15px;
+      color: rgb(255, 255, 255);
+      text-align: justify;
+   }
+
+   p {
+    text-align: justify;
+    padding: 15px;
+   }
+   /*.articulo{
+       display: grid;
+       gap: 1rem;
+       grid-auto-rows: 22rem;
+       grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+   
+   }*/
+
+   
